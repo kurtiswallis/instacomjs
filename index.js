@@ -2,7 +2,7 @@ var Comm100API=Comm100API||{};(function(t){function e(e){var a=document.createEl
 
 document.addEventListener('DOMContentLoaded', function(event) {
     var livechatbutton = document.createElement("div");
-    Comm100Button.setAttribute("id", "livechat-button-128");
+    livechatbutton.setAttribute("id", "livechat-button-128");
     console.log("input button");
     console.log(livechatbutton);
     document.body.appendChild(livechatbutton);
